@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Hej słodziaku</title>
+<style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  img {
+    width: 400px;
+    height: 400px;
+  }
+  .buttons {
+    display: flex; 
+    justify-content: center;
+  }
+  .button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+  }
+  .yes {
+    background-color: green;
+    color: white;
+  }
+  .no {
+    background-color: red;
+    color: white;
+  }
+</style>
+</head>
+<body>
+
+<h2>Ja też Cię kocham!!!!!</h2>
+<img src="https://i.pinimg.com/originals/dc/dd/45/dcdd45bc02f89241babe4ab61ce69f01.gif" alt="Słodki szop">
+
+<div class="buttons">
+    <button class="button yes"  onclick="goToPage()">Przejdź dalej </button>
+
+</div>
+
+<script>
+    function goToPage() {
+        window.location.href = 'index2.html';
+    }
+</script>
+  
+
+</body>
+</html>
